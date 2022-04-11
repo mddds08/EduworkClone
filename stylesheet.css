@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.nav {
+    font-weight: bold;
+}
+.btn-secondary {
+    background-color: #4db7fe;
+    border-radius: 25px;
+    
+}
+.btn-secondary a {
+    color: aliceblue;
+}
+.btn-secondary:hover {
+    background-color: #4db7fe;
+}
+
+.dropdown a:hover,.sign a:hover,.active,.active:hover {
+    color: #4db7fe;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown a {
+    color: #494949;
+    
+}
+.sign a{
+    color: #494949;
+}
+.dropdown-menu a{
+    font-size: 12px;
+    font-weight: bold;
+}
+.signup a:hover {
+    color: white;
+}
+.header {
+    background-image: url(img/pexels-olia-danilevich-4974912.jpg);
+    background-size: cover;
+    height:720px;
+}
+.hq {
+    margin-top: 160px;
+    font-weight: bolder;
+    font-size: 56px;
+}
+.hw {
+    margin-top: -25px;
+}
+.he {
+    margin-top: -20px;
+    background-color: #04436d;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.fa-display {
+    font-size: 34px;
+    color: #4db7fe;
+}
+.fa-user {
+    font-size: 34px;
+    color: #4db7fe;
+}
+.fa-gears {
+    font-size: 34px;
+    color: #4db7fe;
+}
+    /*
+.fa-regular {
+    font-size: 28px;
+} */
+.gh3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4db7fe;
+
+}
+.gp {
+    font-weight: 500;
+    font-size: 16px;
+    color: #878c9f;
+    line-height: 24px;
+}
